@@ -23,6 +23,7 @@ func main() {
 
 	//setup server
 	server := http.Server{
+
 		Addr:    cfg.Addr,
 		Handler: router,
 	}
