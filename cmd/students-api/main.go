@@ -12,7 +12,7 @@ func main() {
 	//load config
 	cfg := config.MustLoad()
 
-	//database setup
+	//database setups
 
 	//setup router
 	router := http.NewServeMux()
